@@ -1,5 +1,6 @@
-# This is a RESTful API for User Authentication + Authorization
+# A NodeJs/Express RESTful API for User Authentication + Authorization using MongoDB and Gitpod Docker
 The following are the endpoints with their brief description: (you can use POSTMAN or any other api caller....(however, I used PSOTMAN for TESTING))
+
 ================================================================
 POST:   /api/auth/signup     
 Description:   for SignUp/Registeration         
@@ -20,11 +21,13 @@ example request body---> {
 ================================================================
 ================================================================
 POST:   /api/auth/signout
-Description:   for Logout/SignOut    
+Description:   for Logout/SignOut
+
 ================================================================
 ================================================================
 GET:   /api/test/all
-Description:   for Public Content Authroization    
+Description:   for Public Content Authroization  
+
 ================================================================
 ================================================================
 GET:   /api/test/user
