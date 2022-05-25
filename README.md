@@ -5,10 +5,10 @@ The following are the endpoints with their brief description: (you can use POSTM
 POST:   /api/auth/signup     
 Description:   for SignUp/Registeration         
 example request body---> {
-	"email": "mytest@gmail.com",
+	"email": "mytest5@gmail.com",
 	"password": "EsmatHanif123",
-	"username": "esmathanif",
-	"role": "admin"
+	"username": "esmathanif5",
+	"role": ["admin"]
 }
 ================================================================
 ================================================================
