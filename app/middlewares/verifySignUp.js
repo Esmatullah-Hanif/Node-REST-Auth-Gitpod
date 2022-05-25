@@ -4,7 +4,6 @@ const User = db.user;
 
 checkDuplicateUsernameOrEmail = (req, res, next) => {
   // Username
-  console.log('in valid signup')
   User.findOne({
     username: req.body.username
   }).exec((err, user) => {
